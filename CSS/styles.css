@@ -3,6 +3,7 @@ main{
     width:60%;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #333366;
+    font-size:16px;
 }
 
 header{
@@ -16,6 +17,7 @@ li::marker{
 .exp_sublist{
     margin-top:5px;
     margin-left:10px;
+    font-size: 14px;
 }
 .exp_sublist::marker{
     content:'>>>>>>>> ';
