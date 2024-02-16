@@ -20,17 +20,7 @@ li::marker{
 .exp_sublist::marker{
     content:'>>>>>>>> ';
 }
-figcaption{
-    font-size: 0.7em;
-    padding-left:10px;
-}
-.img-container {
-    display: flex;
-    width:100%;
-    margin:10px auto 10px auto;
-    justify-content: center;
-    align-items: center;
-}
+
 .avatar-container{
     display: flex;
     justify-content: center;
@@ -79,12 +69,25 @@ a:hover {
     color: #8888ff;
 }
 
-hr {
+.hr_header {
     border: none;
-    border-top: 1px solid #ccc;
+    border-top: 2px solid #aad;
     margin: 20px 0;
 }
-
+.hr_others {
+    border-top: 1px solid #ddf;
+}
+.hr_footer {
+    border-top: 1px solid #ddf;
+    margin-bottom: 50px;
+}
+footer{
+    text-align: center;
+}
+.icon_array{
+    margin-top:10px;
+    padding-left:50px;
+}
 summary {
     font-size:25px;
     font-weight: bold;
